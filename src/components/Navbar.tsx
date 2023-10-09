@@ -28,7 +28,6 @@ const Navbar = () => {
               </Link>
             </>
             <LoginLink
-              href="/pricing"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
@@ -37,7 +36,6 @@ const Navbar = () => {
               Sign in
             </LoginLink>
             <RegisterLink
-              href="/pricing"
               className={buttonVariants({
                 size: "sm",
               })}
